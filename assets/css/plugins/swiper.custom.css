@@ -1,0 +1,17 @@
+.swiper-slide{
+  max-height: 800px;
+  background: transparent;
+}
+.swiper-slide > img{
+  filter: sepia(.6);
+}
+.swiper-pagination-bullet-active{
+  background: #4baae0;
+}
+.swiper-button-prev,.swiper-container-rtl .swiper-button-next {
+  background-image: url("../../img/swiper/allow-left.svg");
+}
+
+.swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+  background-image: url("../../img/swiper/allow-right.svg");
+}

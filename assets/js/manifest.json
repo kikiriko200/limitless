@@ -1,0 +1,9 @@
+{
+  "name": "CSS Framework",
+  "short_name": "CSS",
+  "theme_color": "rgba(0,142,255,0.5)",
+  "background_color": "#100ff0",
+  "display": "minimal-ui",
+  "scope": "/",
+  "start_url": "/?ref=desktop"
+}

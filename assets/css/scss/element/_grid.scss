@@ -1,0 +1,30 @@
+.r{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  @for $i from 1 through 12{
+    .col-#{$i}{
+      width: #{100% / 12 * $i};
+    }
+  }
+  @include tb{
+    [class^="col-"],[class*="col-"]{
+      width: 100%;
+    }
+    @for $i from 1 through 12{
+      .col-tb-#{$i}{
+        width: #{100% / 12 * $i};
+      }
+    }
+  }
+  @include sp{
+    [class^="col-"],[class*="col-"]{
+      width: 100%;
+    }
+    @for $i from 1 through 12{
+      .col-sp-#{$i}{
+        width: #{100% / 12 * $i};
+      }
+    }
+  }
+}
