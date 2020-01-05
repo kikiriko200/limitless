@@ -52,13 +52,13 @@ $(window).on('load', function(){
   // });
 
   //garaly
-  $.getJSON("../data/img.json",function(data){
+  $.getJSON("./data/img.json",function(data){
     let garaly = $("#garaly");
     let length = data.length;
 
     for(var i = 0; i < length; i++) {
       let path = data[i].path;
-      garaly.append("<div class='col-3 col-tb-4'><a href="+path+" data-lightbox='garaly'><img class='garaly-thumb' src='"+path+"'></div>")
+      garaly.append("<div class='col-3 col-tb-4'><a href="+path+" data-lightbox='garaly'><img class='garaly-thumb' loading='lazy' src='"+path+"'></div>")
     }
   })
 
