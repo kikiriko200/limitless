@@ -492,12 +492,20 @@ h4, h5, h6 {
 .garaly-thumb {
   margin: 20px 0;
   padding: 10px;
-  -webkit-filter: drop-shadow(2px 4px 6px black);
-          filter: drop-shadow(2px 4px 6px black);
+  -webkit-filter: drop-shadow(2px 4px 6px black) grayscale(0.8);
+          filter: drop-shadow(2px 4px 6px black) grayscale(0.8);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
 }
 
 .garaly-thumb:hover {
   cursor: pointer;
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
 }
 
 .circle {
