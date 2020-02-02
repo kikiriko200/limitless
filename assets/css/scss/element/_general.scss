@@ -58,6 +58,23 @@ img{
   }
 }
 
+.t-left{
+  text-align: left;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.t-right{
+  text-align: right;
+}
+
+.editer{
+  width: 80%;
+  height: 450px;
+  resize: none;
+}
 // Heading
 h1,h2,h3,h4,h5,h6{
   font-weight: 600;

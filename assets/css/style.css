@@ -147,6 +147,24 @@ img {
   height: 100%;
 }
 
+.t-left {
+  text-align: left;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.editer {
+  width: 80%;
+  height: 450px;
+  resize: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
@@ -506,6 +524,11 @@ h4, h5, h6 {
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
+}
+
+.blog-title {
+  padding: 60px 30px;
+  background: #e5e5e5;
 }
 
 .circle {
